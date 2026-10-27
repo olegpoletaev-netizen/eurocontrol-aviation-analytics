@@ -1,0 +1,162 @@
+{
+  ".gitignore": {
+    "bytes": 81,
+    "sha256": "cfc57f6913afeb7deacf07802f5df87ae138c10608c6f97307849720eb7394a8"
+  },
+  ".streamlit/config.toml": {
+    "bytes": 39,
+    "sha256": "a7a94256aa657eb72d02109d2eaae3c24515b4ae39cd7f29189d4a1af668a7ee"
+  },
+  "CLOUD_DEPLOY_README_RU.md": {
+    "bytes": 4545,
+    "sha256": "435f39e92d773bdd5750d17e68d7fb647f10732e1a094db6dcc5e1c37f74827e"
+  },
+  "app.py": {
+    "bytes": 14216,
+    "sha256": "4cc86a57dc5b43f804222b78ae9f895fab090738471cbda042cef242695ab21d"
+  },
+  "eda_panel.py": {
+    "bytes": 13810,
+    "sha256": "0e0e08d7f002550c1bcd9fae4d6a26b6e2cb54e8b8e9a8b360c3f8a6580eef85"
+  },
+  "eurostat_route_analytics_v1/README_RU.md": {
+    "bytes": 4702,
+    "sha256": "710a4aac1bc968558229275205accb8de2e1bbd772644ad84d833ccc699d3885"
+  },
+  "eurostat_route_analytics_v1/app_eurostat.py": {
+    "bytes": 4847,
+    "sha256": "d8a837b1881da73383917e02b386f6587a37acd4fd1d0fc8296f6cb9bbdedbcc"
+  },
+  "eurostat_route_analytics_v1/build_route_analytics.py": {
+    "bytes": 7101,
+    "sha256": "37659458345309921c73d774b35f2fec27a554fcfd36948a360ea520b5ff7102"
+  },
+  "eurostat_route_analytics_v1/data/route_analytics_report.json": {
+    "bytes": 1859,
+    "sha256": "5081637552a911e82257cd1c349b3f13d76457d2f13020e00c36e8d80196332e"
+  },
+  "eurostat_route_analytics_v1/data/route_baseline_2025.csv": {
+    "bytes": 50744,
+    "sha256": "cbc2311143096e1bf9a97596048c15f7af686ca44a00aa8147532adb1a81df88"
+  },
+  "eurostat_route_analytics_v1/data/route_coverage_monthly.csv": {
+    "bytes": 1137,
+    "sha256": "a5ba619e71930e1d125b61d9e1f982e9a39bb8cbe30c3e894bc0757268d40012"
+  },
+  "eurostat_route_analytics_v1/data/route_monthly_panel.csv": {
+    "bytes": 3024706,
+    "sha256": "8df3b8c8cf0020eae5fedfd1fc281eb739e2263a332e06bc614187db68778306"
+  },
+  "eurostat_route_analytics_v1/data/route_pair_yoy.csv": {
+    "bytes": 347250,
+    "sha256": "aba57914a7afb875ccf6a5b80a403d3d43da85ef3946d2ad6046e8f3b2c4032a"
+  },
+  "eurostat_route_analytics_v1/data/route_partner_yoy.csv": {
+    "bytes": 7477,
+    "sha256": "d1f6dc458cc7c11744fa5100ffa0ec532c11bf7bb9e0f5476b9695c480d938c2"
+  },
+  "eurostat_route_analytics_v1/data/route_reporting_country_yoy.csv": {
+    "bytes": 8800,
+    "sha256": "5647543ce3c30eb1d79b01dd9318698c2e039b0ecb607e1516ba2065196a1eb4"
+  },
+  "eurostat_route_analytics_v1/route_streamlit_panel.py": {
+    "bytes": 9496,
+    "sha256": "b4ac7765be7e5ec988f3422ca3f3ecdcd1fbe2b317ad1de6e49a8c104ac72878"
+  },
+  "event_registry/eurocontrol_events_2024_2026.md": {
+    "bytes": 53978,
+    "sha256": "fd01df9c0f0bdb119f9770318f7b7122c3ab5f0b4d5a4d237ef5c4ab0e8b112f"
+  },
+  "event_registry/events.csv": {
+    "bytes": 45194,
+    "sha256": "2ee2d23f91530713d0b8fa2449cec7aa9eb71fde4a800a27763ddaab74ca71ac"
+  },
+  "event_registry/events_panel.py": {
+    "bytes": 4788,
+    "sha256": "44de633138ed866187340a6d11b1c4f79dcf2692f738ba3706f21989db82a336"
+  },
+  "its_llbg_data/its_llbg_daily.csv": {
+    "bytes": 6990,
+    "sha256": "716933e67710c204050e94dd6e713ae4796eb48961d0e150931b045afd3d5862"
+  },
+  "its_llbg_data/its_llbg_diagnostics.csv": {
+    "bytes": 1240,
+    "sha256": "b741af04340445e756fe9d0b85cf7984b5fffdb6415d1d85153d25f5440ab5c2"
+  },
+  "its_llbg_data/its_llbg_placebo.csv": {
+    "bytes": 1655,
+    "sha256": "3219c12bd5d4cf550df8777d8a1b16444c6a3f0bf5ab764f02bdbf06290a3f72"
+  },
+  "its_llbg_data/its_llbg_report.json": {
+    "bytes": 7918,
+    "sha256": "c808eb558c76cab63a8f13824774bf985c1abbc0da64bc3b77dc92d3b59c142f"
+  },
+  "its_llbg_data/its_llbg_windows.csv": {
+    "bytes": 3144,
+    "sha256": "7ca5b3f4e16596714c5b41dd9b346fa2ee836a8773b5bb9f738967cf22f4f5ea"
+  },
+  "its_llbg_panel.py": {
+    "bytes": 5818,
+    "sha256": "29820f631e43570770e8ca0acd79dea55f57da2f6ed662587603cbf621eaea50"
+  },
+  "its_validation_data/backtest_model_summary.csv": {
+    "bytes": 2171,
+    "sha256": "c3c15b5f4bb568520eefd6fb9595cc52d81377a13e408b7f0a6447f3cca5710e"
+  },
+  "its_validation_data/backtest_origin_windows.csv": {
+    "bytes": 24574,
+    "sha256": "457f980f64b1e2003ba2185d0f7ceec630057489e8e939bb0ee339513a773cb0"
+  },
+  "its_validation_data/historical_error_calibration.csv": {
+    "bytes": 2697,
+    "sha256": "6612768330dc4010a55e18dc6fae92ce12ad61b9509324ecc65504689edb6b36"
+  },
+  "its_validation_data/post_daily_validation.csv": {
+    "bytes": 13117,
+    "sha256": "70ab8ae0cbbeae22793466fe2f88d1900d17ac463180ffda078eecd3af6ea132"
+  },
+  "its_validation_data/post_model_comparison.csv": {
+    "bytes": 3481,
+    "sha256": "242d46a40187f7bc7cc822e970419be2496a9d3521db534b1fc5d0c6790249be"
+  },
+  "its_validation_data/validation_report.json": {
+    "bytes": 2878,
+    "sha256": "f405abd179d6fb3bf95657a06a29e37a5a9d3cf118f3e68706d5bbca32681ab7"
+  },
+  "its_validation_panel.py": {
+    "bytes": 7554,
+    "sha256": "ad873ae5505af3278e10e77cb178de1a55ddac597b04327a27297c36a8f1043f"
+  },
+  "model_comparison_data/model_comparison_backtests.csv": {
+    "bytes": 33529,
+    "sha256": "2eaa37974d8d5f1533ab1adb16311dae5eb97462808dff13a14ec5b73abe8e56"
+  },
+  "model_comparison_data/model_comparison_daily.csv": {
+    "bytes": 19418,
+    "sha256": "a307808bca93bacfefc694b8648eae495aa03a7168ef36c37b0a57396bc1c3a7"
+  },
+  "model_comparison_data/model_comparison_post.csv": {
+    "bytes": 4719,
+    "sha256": "1a6d7203b51a846367f11a6cd4d75beb4f905b2af1a94a6dcd9caf1065afb87f"
+  },
+  "model_comparison_data/model_comparison_report.json": {
+    "bytes": 1700,
+    "sha256": "8248eb1fdf96dcfd8859b8473665b3771a62d30fb70621bc09d91bc8a551fc84"
+  },
+  "model_comparison_data/model_comparison_summary.csv": {
+    "bytes": 2551,
+    "sha256": "1e9d01470dcb8a5170b614175635e8c872c7f36310ecc3bce65684ac8d7f8f44"
+  },
+  "model_comparison_panel.py": {
+    "bytes": 4190,
+    "sha256": "ecae3ed3ee6e6993f0614d6d452084d42141784f079e27a5a512d2c598566951"
+  },
+  "preflight.py": {
+    "bytes": 1441,
+    "sha256": "b521e198a9ae4bf152e906ca6ed72e89af3fa76626d3d8f61679f034aeb5ee3e"
+  },
+  "requirements.txt": {
+    "bytes": 80,
+    "sha256": "08ea2f725522ad0348c05215b68644a663bb87a797a3256ef82533e0de28c5b2"
+  }
+}

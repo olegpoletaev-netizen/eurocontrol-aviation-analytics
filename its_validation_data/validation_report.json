@@ -1,0 +1,103 @@
+{
+  "status": "VALIDATION_COMPUTED_NOT_CAUSALLY_IDENTIFIED",
+  "date_epoch": "2026-02-28",
+  "train_origin": "2024-01-01",
+  "backtest_origins_planned": [
+    "2025-03-01",
+    "2025-04-15",
+    "2025-06-01",
+    "2025-07-15",
+    "2025-09-01",
+    "2025-10-15",
+    "2025-11-15"
+  ],
+  "common_backtest_origins": [
+    "2025-03-01",
+    "2025-04-15",
+    "2025-06-01",
+    "2025-07-15",
+    "2025-09-01",
+    "2025-10-15",
+    "2025-11-15"
+  ],
+  "model_names": [
+    "ols_fourier",
+    "glsar_ar1",
+    "seasonal_naive_364"
+  ],
+  "selection_basis": "pre-specified 28-day historical median APE, informational only; keep original model visible",
+  "backtest_ranking_28d": [
+    {
+      "model": "glsar_ar1",
+      "median_abs_pct_error": 12.22991995317329,
+      "origins": 7
+    },
+    {
+      "model": "ols_fourier",
+      "median_abs_pct_error": 12.779460305236157,
+      "origins": 7
+    },
+    {
+      "model": "seasonal_naive_364",
+      "median_abs_pct_error": 31.80941889286698,
+      "origins": 7
+    }
+  ],
+  "post_diagnostics": [
+    {
+      "model": "ols_fourier",
+      "train_n": 789,
+      "rho": NaN,
+      "lb14_p": 0.0,
+      "train_log_rmse": 0.37290140569504887,
+      "smearing": 1.0412478369960319
+    },
+    {
+      "model": "glsar_ar1",
+      "train_n": 789,
+      "rho": 0.8416955711959206,
+      "lb14_p": 0.0,
+      "train_log_rmse": 0.3729354411845166,
+      "smearing": 1.0406625826239282
+    },
+    {
+      "model": "seasonal_naive_364",
+      "train_n": 0,
+      "rho": NaN,
+      "lb14_p": NaN,
+      "train_log_rmse": NaN
+    }
+  ],
+  "warnings": [],
+  "source_verification": {
+    "input_kind": "read_only_duckdb",
+    "input_file": "aviation_analytics.duckdb",
+    "main_opened_read_only": true,
+    "main_before": [
+      113452,
+      113415,
+      40937427
+    ],
+    "main_after": [
+      113452,
+      113415,
+      40937427
+    ],
+    "main_unchanged": true,
+    "llbg_rows": 1004,
+    "llbg_nulls": 0,
+    "llbg_start": "2024-01-01",
+    "llbg_end": "2026-09-30"
+  },
+  "limitations": [
+    "Rolling-origin windows overlap; calibration rows are not independent samples",
+    "2025 historical tests include geopolitical/security changes and are not guaranteed neutral",
+    "AR(1) GLSAR captures only first-order residual dependence, not all nonlinear breaks",
+    "Seasonal naive compares prior weekdays using a 364-day lag; sensitive to secular growth",
+    "Revised models do not identify causal effects, and no p-values are computed for event impact",
+    "No residual forecast-interval coverage guarantee; backtest ranges descriptive",
+    "A 2024 placebo cannot be trained without data before 2024",
+    "No actuals or predictors from after each forecast origin are used in fitting",
+    "Missing days are not zero filled"
+  ]
+}

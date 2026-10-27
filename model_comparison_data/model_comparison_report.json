@@ -1,0 +1,58 @@
+{
+  "status": "MODEL_COMPARISON_COMPLETE_DESCRIPTIVE",
+  "models": [
+    "ols_fourier",
+    "glsar_ar1",
+    "seasonal_naive_364",
+    "sklearn_hist_gradient_boosting"
+  ],
+  "library_mapping": {
+    "ols_fourier": "statsmodels",
+    "glsar_ar1": "statsmodels",
+    "seasonal_naive_364": "numpy/pandas",
+    "sklearn_hist_gradient_boosting": "scikit-learn"
+  },
+  "historical_origins": [
+    "2025-03-01",
+    "2025-04-15",
+    "2025-06-01",
+    "2025-07-15",
+    "2025-09-01",
+    "2025-10-15",
+    "2025-11-15"
+  ],
+  "metric_explanation": "Median absolute percentage error of window total; daily MAE and RMSE also reported. Lower is better.",
+  "best_by_horizon": {
+    "D01_28": "sklearn_hist_gradient_boosting",
+    "CUM_01_56": "sklearn_hist_gradient_boosting",
+    "CUM_01_90": "sklearn_hist_gradient_boosting"
+  },
+  "source_proof": {
+    "input_kind": "read_only_duckdb",
+    "input_file": "aviation_analytics.duckdb",
+    "main_opened_read_only": true,
+    "main_before": [
+      113452,
+      113415,
+      40937427
+    ],
+    "main_after": [
+      113452,
+      113415,
+      40937427
+    ],
+    "main_unchanged": true,
+    "llbg_rows": 1004,
+    "llbg_nulls": 0,
+    "llbg_start": "2024-01-01",
+    "llbg_end": "2026-09-30"
+  },
+  "failures": [],
+  "limitations": [
+    "7 overlapping historical test windows; not statistical independent tests",
+    "2024-2025 contain conflict shocks; forecast model selection is descriptive",
+    "HGB calendar-only, no future actuals, no lag leakage, may poorly extrapolate secular trend",
+    "No strict causal effect or p-value",
+    "LLBG airport movements include departures+arrivals"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "status": "OK_VALIDATED",
+  "source_dataset": "avia_paexcc",
+  "period": [
+    "2025-01",
+    "2026-09"
+  ],
+  "indicator": {
+    "freq": "M",
+    "schedule": "TOTAL",
+    "unit": "FLIGHT",
+    "tra_meas": "CAF_PAS"
+  },
+  "pair_count": 496,
+  "grid_cells": 10416,
+  "numeric_cells": 5412,
+  "reported_zeros": 1634,
+  "not_returned_cells": 5004,
+  "http_200_requests": 496,
+  "matched_pair_months": 1511,
+  "2026_monthly_coverage": [
+    {
+      "time": "2026-01",
+      "coverage_pct": 58.87096774193548
+    },
+    {
+      "time": "2026-02",
+      "coverage_pct": 58.87096774193548
+    },
+    {
+      "time": "2026-03",
+      "coverage_pct": 58.87096774193548
+    },
+    {
+      "time": "2026-04",
+      "coverage_pct": 46.774193548387096
+    },
+    {
+      "time": "2026-05",
+      "coverage_pct": 42.54032258064516
+    },
+    {
+      "time": "2026-06",
+      "coverage_pct": 30.64516129032258
+    },
+    {
+      "time": "2026-07",
+      "coverage_pct": 17.137096774193548
+    },
+    {
+      "time": "2026-08",
+      "coverage_pct": 10.483870967741936
+    },
+    {
+      "time": "2026-09",
+      "coverage_pct": 2.4193548387096775
+    }
+  ],
+  "constraints": [
+    "Country-to-partner monthly commercial passenger flights, not airport routes",
+    "Do not conflate 2026 missing publication with zeros",
+    "Every YoY aggregate uses same matched pairs in both years",
+    "The 2025 baseline sums 16 selected partners only, not all routes",
+    "March 2026 differs from the event study daily 28-day window",
+    "Flight counts alone do not establish rerouting or causal effects"
+  ],
+  "database_modified": false,
+  "external_http_requests": 0,
+  "outputs": [
+    "route_monthly_panel.csv",
+    "route_pair_yoy.csv",
+    "route_coverage_monthly.csv",
+    "route_partner_yoy.csv",
+    "route_reporting_country_yoy.csv",
+    "route_baseline_2025.csv"
+  ]
+}

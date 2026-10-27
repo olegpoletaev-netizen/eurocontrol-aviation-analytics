@@ -1,0 +1,16 @@
+﻿model,window,backtest_origins,post_error_pct,historical_min_error_pct,historical_max_error_pct,post_outside_historical_range,empirical_tail_fraction_with_plus1,note
+ols_fourier,D01_28,7,-79.9921472997372,-57.433081884614424,20.760335063715594,True,0.125,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+ols_fourier,D29_56,7,-71.82030110651833,-33.75980998568567,34.08342661802717,True,0.125,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+ols_fourier,D57_90,7,-36.77723585772007,-62.30515974524843,37.624629464256934,False,0.25,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+ols_fourier,CUM_01_56,7,-75.81457507163752,-45.01547427201014,27.191149666478196,True,0.125,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+ols_fourier,CUM_01_90,7,-61.07996376882545,-39.341800655987235,21.92997634150695,True,0.125,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+glsar_ar1,D01_28,7,-79.37009058400797,-56.96949430986973,17.96101573847586,True,0.125,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+glsar_ar1,D29_56,7,-71.40361318406265,-33.52738188752894,33.19056017828772,True,0.125,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+glsar_ar1,D57_90,7,-35.985924496311796,-62.32741993390063,37.61365053476815,False,0.25,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+glsar_ar1,CUM_01_56,7,-75.26578479647229,-44.63029782443492,25.248278271630188,True,0.125,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+glsar_ar1,CUM_01_90,7,-60.34723259716237,-39.406379058130106,22.39345492380067,True,0.125,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+seasonal_naive_364,D01_28,7,-72.93356607454564,-36.897590361445786,50.94486150660109,True,0.125,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+seasonal_naive_364,D29_56,7,-69.89689123187843,-4.1144583666577805,57.3394495412844,True,0.125,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+seasonal_naive_364,D57_90,7,-19.788836270475898,-37.28402783206942,47.83943597907665,False,0.25,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+seasonal_naive_364,CUM_01_56,7,-71.20328650940895,-19.506906142459812,50.23891691000797,True,0.125,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
+seasonal_naive_364,CUM_01_90,7,-52.55778597370422,-2.287439403175706,44.52216315600144,True,0.125,Descriptive small-sample comparison; rolling origins overlap; NOT a p-value
